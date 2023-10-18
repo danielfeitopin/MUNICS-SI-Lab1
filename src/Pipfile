@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cryptography = {extras = ["ssh"], version = "*"}
+paho-mqtt = "*"
+
+[dev-packages]
+
+[requires]
+
